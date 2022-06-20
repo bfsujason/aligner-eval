@@ -1,0 +1,7 @@
+text_id	src_lang	tgt_lang	num_src_sent
+001	en	zh	5000
+002	en	zh	10000
+003	en	zh	15000
+004	en	zh	20000
+005	en	zh	25000
+006	en	zh	30000

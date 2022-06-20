@@ -1,0 +1,14 @@
+text_id	src_lang	tgt_lang	src_title	tgt_title	chapter	author	translator	genre	trans_publisher	trans_pubdate
+001	en	zh	Cosmic Rays and Particle Physics	《宇宙线和粒子物理》	001	Thomas K. Gaisser	袁强，康明铭，余钊焕，冯磊	academic	中国科学技术大学出版社	2018
+001	en	zh	Harrison's Rheumatology	《哈里森风湿病学》	003	Anthony Fauci, Carol Langford	田新平，曾小峰	academic	科学出版社	2018
+001	en	zh	Functional analysis	《泛函分析》 	006	Walter Rudin	刘培德	academic	NA	2004
+001	en	zh	Social design : creating buildings with people in mind	《新建筑》	006	Robert Sommer	吴向阳	academic	https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFD9697&filename=XJZJ704.030&v=MTU2NTRIbld3PT1QU2ZSWkxTNEdzL01ySThxRjU0T2ZnZzV6aEFVNGpoNE9YNlRySDAzZWJDVVJiaWZZT1J2Rnk=	1997
+001	en	zh	The bounds of reason  game theory and the unification of the behavioral sciences	《理性的边界 博弈论与各门行为科学的统一》	NA	Herbert Gintis	董志强	academic	上海人民出版社	2009
+001	en	zh	Leviathan	《利维坦》	001	Thomas Hobbes	黎思复，黎廷弼	academic	商务印书馆	1986
+001	en	zh	Beyond the Ivory Tower: Social responsibilities of the Modern University	《走出象牙塔：现代大学的社会责任》	001	Derek Bok	徐小洲，陈军	academic	浙江教育出版社	2001
+001	en	zh	Philosophy of Law: A Very Short Introduction	《法哲学：价值与事实》	002	Raymond Wacks	谭宇生	academic	译林出版社	2008
+001	en	zh	The Holocaust in American Life	《大屠杀与集体记忆》	012	Peter Novick	王志华	academic	译林出版社	2019
+001	en	zh	Imperial Eyes: Travel Writing and Transculturation	《帝国之言：旅行书写与文化互化》	003	Mary Louise Pratt	方杰、方宸	academic	译林出版社	2017
+001	en	zh	"History and GIS: Epistemologies, Considerations and Reflections"	《文化艺术研究》	001	David J. Bodenhamer	孙頔，钦白兰，吴宗杰	academic	https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFD2014&filename=PWHY201401020&v=MjY1MDdmWmVkdkZ5L2dVTHJCTlRyRGQ3RzRIOVhNcm85SFpJUjhlWDFMdXhZUzdEaDFUM3FUcldNMUZyQ1VSN3E=	2014
+001	en	zh	Radar Systems Analysis and Design Using MATLAB	《雷达系统分析与设计》（MATLAB版）（第三版）	001	Bassem R. Mahafza	周万幸等	academic	电子工业出版社	2016
+001	en	zh	Modern Control Engineering (Fifth Edition)	《现代控制工程（第五版）》	002	Katsuhiko Ogata	卢伯英，佟明安	academic	电子工业出版社	2017
