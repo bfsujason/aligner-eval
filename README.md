@@ -211,6 +211,6 @@ python bin/bertalign/demo_vis.py \
    --max_align=8 --margin
 ```
 
-![demo_vis](D:\_2022_dsh_eval\demo\demo_vis.png)
+![demo_vis](demo/demo_vis.png)
 
 In the first-pass alignment, Bertalign finds the 1-1 links for approximate anchor points. The second-pass alignment limits the search path to the anchor points and extracts all the valid alignments with 1-to-many, many-to-1 or many-to-many relations between the source and target sentences.
