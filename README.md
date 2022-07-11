@@ -27,10 +27,10 @@ Both literary and non-literary corpora are used to evaluate the performance of a
 
 ###### Table 2. Summary of Literary Corpora
 
-| Corpus | srcLang | tgtLang | # srcSents | # tgtSents | # 1-1 (%)  |
-| ------ | ------- | ------- | ---------- | ---------- | ---------- |
-| MAC-Test    | Chinese | English | 4,799      | 5,573      | 2,628 (59.8) |
-| Bible  | English | Chinese | 30,000     | 42,687     | 15,665 (56.6) |
+| Corpus | Src_Lang | Tgt_Lang | # Src_Sents | # Tgt_Sents | # Src_Tokens | # Tgt_Tokens | # 1-1 (%)  |
+| ------ | ------- | ------- | ---------- | ---------- | ---------- | ---------- | ---------- |
+| MAC-Test    | Chinese | English | 4,799      | 5,573      | 73,635      | 105,407     | 2,628 (59.8) |
+| Bible  | English | Chinese | 30,000     | 42,687     |  714,048      | 524,340     | 15,665 (56.6) |
 
 ##### MAC
 
@@ -54,11 +54,11 @@ In order to compare the sentence-based alignments returned by various aligners w
 
 ###### Table 3. Summary of Non-literary Corpora
 
-| Corpus            | srcLang | tgtLang | # srcSents | # tgtSents |
-| ----------------- | ------- | ------- | ---------- | ---------- |
-| Academic Texts    | English | Chinese | 1,126      | 1,111      |
-| Political Texts   | Chinese | English | 1,037      | 1,346      |
-| Magazine Articles | English | Chinese | 1,027      | 1,128      |
+| Corpus            | Src_Lang | Tgt_Lang | # Src_Sents | # Tgt_Sents | # Src_Tokens | # Tgt_Tokens | # 1-1 (%)  |
+| ----------------- | ------- | ------- | ---------- | ---------- | ------- | ---------- | ---------- |
+| Academic Texts    | English | Chinese | 1,126      | 1,111      | 26,022      | 24,401     | 965 (90.8) |
+| Political Texts   | Chinese | English | 1,037      | 1,346      | 23,929      | 34,075     | 770 (75.6) |
+| Magazine Articles | English | Chinese | 1,027      | 1,128      | 18,323      | 18,838     | 891 (88.3) |
 
 The Non-literary corpora is made up of three sub-corpus:
 
