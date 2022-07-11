@@ -221,3 +221,18 @@ python bin/bertalign/demo_vis.py \
 ![demo_vis](demo/demo_vis.png)
 
 In the first-pass alignment, Bertalign finds the 1-1 links for approximate anchor points. The second-pass alignment limits the search path to the anchor points and extracts all the valid alignments with 1-to-many, many-to-1 or many-to-many relations between the source and target sentences.
+
+## Experiments on the Bible corpus
+
+The experiments settings are similar to the MAC corpus. Please see the [the Google Colab notebook](https://colab.research.google.com/drive/1qSpultu_DS1_bx4EV5a4XAcON61qlBO7) for more information.
+
+### Results
+
+We do not include Bleualign and Bleurtalign on the Bible corpus because they run out of memory when the document size increases to 25,000 sentences.
+
+| Systems            | Precision | Recall | F<sub>1</sub> |
+| ------------------ | --------- | ------ | ------------- |
+| Gale-Church        | 0.561     | 0.574  | 0.567         |
+| Hunalign           | 0.804     | 0.832  | 0.818         |
+| Vecalign           | 0.957    | 0.958  | 0.957         |
+| Bertalign          | 0.974     | 0.973  | 0.973         |
