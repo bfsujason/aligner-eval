@@ -13,7 +13,7 @@ Table 1 shows the sentence aligners being evaluated,  where S and T means source
 | [Galechurch](https://aclanthology.org/J93-1004/)      | Length-based     | S <=> T                         |
 | [Hunalign](http://mokk.bme.hu/en/resources/hunalign/) | Dictionary-based | T<sub>d</sub> <=> T             |
 | [Bleualign](https://github.com/rsennrich/Bleualign)   | MT-based         | T<sub>m</sub> <=> T             |
-| [Bleurtalign](./bin/bleualign/bleualign/align_bleurt)   | MT-based         | T<sub>m</sub> <=> T             |
+| [Bleurtalign](./bin/bleualign/bleualign/align_bleurt.py)   | MT-based         | T<sub>m</sub> <=> T             |
 | [Vecalign](https://github.com/thompsonb/vecalign)     | Embedding-based  | S<sub>e</sub> <=> T<sub>e</sub> |
 | [Bertalign](https://github.com/bfsujason/bertalign)   | Embedding-based  | S<sub>e</sub> <=> T<sub>e</sub> |
 
