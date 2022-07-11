@@ -163,7 +163,7 @@ python bin/bleualign/bleualign.py \
   -t data/mac/tgt \
   -o data/mac/auto \
   -m data/mac/meta_data.tsv \
-  --bleurt /content/bleurt/BLEURT-20-D6
+  --bleurt /content/bleurt/BLEURT-20
 
 python utils/eval.py \
   -t data/mac/auto \
@@ -202,8 +202,8 @@ python utils/eval.py \
 | ------------------ | --------- | ------ | ------------- |
 | Gale-Church        | 0.442     | 0.470  | 0.455         |
 | Hunalign           | 0.566     | 0.656  | 0.607         |
-| Bleualign   | 0.711     | 0.644  | 0.671         |
-| Bleurtalign| 0.718     | 0.706  | 0.712         |
+| Bleualign   | 0.711     | 0.644  | 0.676         |
+| Bleurtalign| 0.786     | 0.799  | 0.792         |
 | Vecalign           | 0.860     | 0.886  | 0.873         |
 | Bertalign          | 0.906     | 0.912  | 0.909         |
 
