@@ -23,6 +23,12 @@ Table 1 shows the sentence aligners being evaluated,  where S and T means source
 
 Both literary and non-literary corpora are used to evaluate the performance of available sentence aligners.
 
+We use the script [stats.py](./utils/stats.py) to compute the corpus statistics:
+
+```bash
+python utils/stats.py -i data/mac -o ./stats
+```
+
 #### Literary Corpora
 
 ###### Table 2. Summary of Literary Corpora
