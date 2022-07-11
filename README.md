@@ -2,6 +2,8 @@
 
 This repository consists of the dataset and Python scripts for the evaluation of automatic sentence aligners.
 
+#### You can install AlignerEval and conduct the evaluation directly in a [Google Colab notebook](https://colab.research.google.com/drive/1qSpultu_DS1_bx4EV5a4XAcON61qlBO7#scrollTo=otUWfH7D-o6X).
+
 ## Systems Evaluated
 
 Table 1 shows the sentence aligners being evaluated,  where S and T means source and target text respectively, T<sub>d</sub> is the translation of source text using bilingual lexicons and T<sub>m</sub> is the machine translation of source text. S<sub>e</sub> and T<sub>e</sub> are vector representations of source and target texts using sentence embedding techniques such as [LASER](https://github.com/facebookresearch/LASER) and [sentence-transformers](https://github.com/UKPLab/sentence-transformers).
@@ -67,8 +69,6 @@ The Non-literary corpora is made up of three sub-corpus:
 - [The corpus of magazine articles](./data/mag) is sampled from [the Babel English-Chinese Parallel Corpus](https://www.lancaster.ac.uk/fass/projects/corpus/babel/babel.htm), containing 27 English articles from the Time Magazine and their Chinese translations. 
 
 For all of the corpora above, the original bitexts were firstly split into sentences and then checked or aligned manually using the alignment tool [Intertext](./data/aca/intertext). Please refer to [the metadata of academic texts](./data/aca/meta_data.xlsx), [political texts](./data/pol/meta_data.xlsx) and [magazine articles](./data/mag/meta_data.xlsx) for the specific titles of selected source and target texts.
-
-#### You can install AlignerEval and conduct the evaluation directly in a [Google Colab notebook](https://colab.research.google.com/drive/1qSpultu_DS1_bx4EV5a4XAcON61qlBO7#scrollTo=otUWfH7D-o6X).
 
 ## Experiments on MAC corpus
 
