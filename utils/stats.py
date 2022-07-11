@@ -61,6 +61,5 @@ def count_sent_and_tok_nums(file):
             
     return sent_num, tok_num
             
-
 if __name__ == '__main__':
     main()
