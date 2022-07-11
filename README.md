@@ -78,7 +78,7 @@ For all of the corpora above, the original bitexts were firstly split into sente
 
 ## Experiments on MAC corpus
 
-The following experiments show evaluation results on MAC corpus with BLEU metric and LaBSE embeddings. For results on other datasets with different [BLEURT](https://github.com/google-research/bleurt) metrics and LASER embeddings, please refer to [the Google Colab notebook](https://colab.research.google.com/drive/1qSpultu_DS1_bx4EV5a4XAcON61qlBO7#scrollTo=otUWfH7D-o6X). 
+The following experiments show evaluation results on MAC corpus with LaBSE embeddings. For results on other datasets with LASER embeddings, please refer to [the Google Colab notebook](https://colab.research.google.com/drive/1qSpultu_DS1_bx4EV5a4XAcON61qlBO7#scrollTo=otUWfH7D-o6X). 
 
 #### Installation
 
