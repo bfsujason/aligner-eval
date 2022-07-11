@@ -70,7 +70,7 @@ The Non-literary corpus is made up of three sub-corpora:
 
 - [The corpus of academic texts](./data/aca) consists of 13 English academic texts and their translations from the category of learned texts in [Yiyan English-Chinese Parallel Corpus](http://corpus.bfsu.edu.cn/info/1070/1631.htm). 
 
-- [The corpus of political texts](./data/pol) is made up of 19 speeches and writings from the book [Xijinping: The Governance of China Volume 1](https://www.amazon.cn/dp/B07F1HL638).
+- [The corpus of political texts](./data/pol) is made up of 19 speeches and writings from the book [Xijinping: The Governance of China, Volume 1](https://www.amazon.cn/dp/B07F1HL638).
 
 - [The corpus of magazine articles](./data/mag) is sampled from [the Babel English-Chinese Parallel Corpus](https://www.lancaster.ac.uk/fass/projects/corpus/babel/babel.htm), containing 27 English articles from the Time Magazine and their Chinese translations. 
 
