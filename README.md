@@ -35,8 +35,8 @@ python utils/stats.py -i data/mac -o ./stats
 
 | Corpus | srcLang | tgtLang | # srcSents | # tgtSents | # srcTokens | # tgtTokens | # 1-1 (%)  |
 | ------ | ------- | ------- | ---------- | ---------- | ---------- | ---------- | ---------- |
-| MAC-Test    | Chinese | English | 4,799      | 5,573      | 73,635      | 105,407     | 2,628 (59.8) |
-| Bible  | English | Chinese | 30,000     | 42,687     |  714,048      | 524,340     | 15,665 (56.6) |
+| MAC-Test    | zh | en | 4,799      | 5,573      | 73,635      | 105,407     | 2,628 (59.8) |
+| Bible  | en | zh | 30,000     | 42,687     |  714,048      | 524,340     | 15,665 (56.6) |
 
 ##### MAC
 
@@ -62,9 +62,9 @@ In order to compare the sentence-based alignments returned by various aligners w
 
 | Corpus            | srcLang | tgtLang | # srcSents | # tgtSents | # srcTokens | # tgtTokens | # 1-1 (%)  |
 | ----------------- | ------- | ------- | ---------- | ---------- | ------- | ---------- | ---------- |
-| Academic Texts    | English | Chinese | 1,126      | 1,111      | 26,022      | 24,401     | 965 (90.8) |
-| Political Texts   | Chinese | English | 1,037      | 1,346      | 23,929      | 34,075     | 770 (75.6) |
-| Magazine Articles | English | Chinese | 1,027      | 1,128      | 18,323      | 18,838     | 891 (88.3) |
+| Academic Texts    | en | zh | 1,126      | 1,111      | 26,022      | 24,401     | 965 (90.8) |
+| Political Texts   | zh | en | 1,037      | 1,346      | 23,929      | 34,075     | 770 (75.6) |
+| Magazine Articles | en | zh | 1,027      | 1,128      | 18,323      | 18,838     | 891 (88.3) |
 
 The Non-literary corpora is made up of three sub-corpus:
 
