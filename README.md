@@ -236,3 +236,18 @@ We do not include Bleualign and Bleurtalign on the Bible corpus because they run
 | Hunalign           | 0.804     | 0.832  | 0.818         |
 | Vecalign           | 0.957    | 0.958  | 0.957         |
 | Bertalign          | 0.974     | 0.973  | 0.973         |
+
+## Experiments on the non-literary corpus
+
+The experiments settings are similar to the MAC corpus. Please see the [the Google Colab notebook](https://colab.research.google.com/drive/1qSpultu_DS1_bx4EV5a4XAcON61qlBO7) for more information.
+
+### Results
+
+| Systems            | Precision | Recall | F<sub>1</sub> |
+| ------------------ | --------- | ------ | ------------- |
+| Gale-Church        | 0.852     | 0.852  | 0.852         |
+| Hunalign           | 0.884     | 0.917  | 0.900         |
+| Bleualign   | 0.923     | 0.900  | 0.911         |
+| Bleurtalign| 0.955     | 0.957  | 0.966         |
+| Vecalign           | 0.979     | 0.980  | 0.979         |
+| Bertalign          | 0.987     | 0.987  | 0.987         |
