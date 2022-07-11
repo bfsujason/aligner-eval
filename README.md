@@ -76,7 +76,7 @@ The Non-literary corpus is made up of three sub-corpora:
 
 For all of the corpora above, the original bitexts were firstly split into sentences and then checked or aligned manually using the alignment tool [Intertext](./data/aca/intertext). Please refer to [the metadata of academic texts](./data/aca/meta_data.xlsx), [political texts](./data/pol/meta_data.xlsx) and [magazine articles](./data/mag/meta_data.xlsx) for the specific titles of selected source and target texts.
 
-## Experiments on MAC corpus
+## Experiments on the MAC corpus
 
 The following experiments show evaluation results on MAC corpus with LaBSE embeddings. For results on other datasets with LASER embeddings, please refer to [the Google Colab notebook](https://colab.research.google.com/drive/1qSpultu_DS1_bx4EV5a4XAcON61qlBO7#scrollTo=otUWfH7D-o6X). 
 
