@@ -27,10 +27,10 @@ Both literary and non-literary corpora are used to evaluate the performance of a
 
 ###### Table 2. Summary of Literary Corpora
 
-| Corpus | srcLang | tgtLang | # srcSents | # tgtSents |
-| ------ | ------- | ------- | ---------- | ---------- |
-| MAC    | Chinese | English | 4,875      | 6,610      |
-| Bible  | English | Chinese | 30,000     | 42,687     |
+| Corpus | srcLang | tgtLang | # srcSents | # tgtSents | # 1-1 (%)  |
+| ------ | ------- | ------- | ---------- | ---------- | ---------- |
+| MAC    | Chinese | English | 6,243      | 8,520      | 3,445 (60.2) |
+| Bible  | English | Chinese | 30,000     | 42,687     | 15,665 (56.6) |
 
 ##### MAC
 
