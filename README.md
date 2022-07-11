@@ -1,6 +1,6 @@
 # Evaluation of Automatic Sentence Aligners
 
-This repository consists of the dataset and Python scripts for the evaluation of automatic sentence aligners.
+This repository consists of the datasets and Python scripts for the evaluation of automatic sentence aligners.
 
 #### You can install AlignerEval and conduct the evaluation directly in a [Google Colab notebook](https://colab.research.google.com/drive/1qSpultu_DS1_bx4EV5a4XAcON61qlBO7#scrollTo=otUWfH7D-o6X).
 
@@ -29,7 +29,7 @@ Both literary and non-literary corpora are used to evaluate the performance of a
 
 | Corpus | srcLang | tgtLang | # srcSents | # tgtSents | # 1-1 (%)  |
 | ------ | ------- | ------- | ---------- | ---------- | ---------- |
-| MAC    | Chinese | English | 6,243      | 8,520      | 3,445 (60.2) |
+| MAC-Test    | Chinese | English | 4,799      | 5,573      | 2,628 (59.8) |
 | Bible  | English | Chinese | 30,000     | 42,687     | 15,665 (56.6) |
 
 ##### MAC
