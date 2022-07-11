@@ -2,7 +2,7 @@
 
 This repository consists of the datasets and Python scripts for the evaluation of automatic sentence aligners.
 
-#### You can install AlignerEval and conduct the evaluation directly in a [Google Colab notebook](https://colab.research.google.com/drive/1qSpultu_DS1_bx4EV5a4XAcON61qlBO7#scrollTo=otUWfH7D-o6X).
+#### You can install AlignerEval and conduct the evaluation directly in a [Google Colab notebook](https://colab.research.google.com/drive/1qSpultu_DS1_bx4EV5a4XAcON61qlBO7).
 
 ## Systems Evaluated
 
@@ -78,7 +78,7 @@ For all of the corpora above, the original bitexts were firstly split into sente
 
 ## Experiments on the MAC corpus
 
-The following experiments show evaluation results on MAC corpus with LaBSE embeddings. For experiments with LASER embeddings, please refer to [the Google Colab notebook](https://colab.research.google.com/drive/1qSpultu_DS1_bx4EV5a4XAcON61qlBO7#scrollTo=otUWfH7D-o6X). 
+The following experiments show evaluation results on MAC corpus with LaBSE embeddings. For experiments with LASER embeddings, please refer to [the Google Colab notebook](https://colab.research.google.com/drive/1qSpultu_DS1_bx4EV5a4XAcON61qlBO7). 
 
 #### Installation
 
