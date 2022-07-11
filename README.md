@@ -66,7 +66,7 @@ In order to compare the sentence-based alignments returned by various aligners w
 | Political Texts   | zh | en | 1,037      | 1,346      | 23,929      | 34,075     | 770 (75.6) |
 | Magazine Articles | en | zh | 1,027      | 1,128      | 18,323      | 18,838     | 891 (88.3) |
 
-The Non-literary corpora is made up of three sub-corpus:
+The Non-literary corpus is made up of three sub-corpora:
 
 - [The corpus of academic texts](./data/aca) consists of 13 English academic texts and their translations from the category of learned texts in [Yiyan English-Chinese Parallel Corpus](http://corpus.bfsu.edu.cn/info/1070/1631.htm). 
 
@@ -157,7 +157,7 @@ python utils/eval.py \
 ```
 
 ```bash
-# Bleualign: MT-based aligner using BLEURT metric.
+# Bleurtalign: MT-based aligner using BLEURT metric.
 python bin/bleualign/bleualign.py \
   -s data/mac/src \
   -t data/mac/tgt \
@@ -184,7 +184,7 @@ python utils/eval.py \
 ```
 
 ```bash
-# Bertalign with LaBSE embeddings.
+# Bertalign with LaBSE embeddings and modified cosine metric.
 python bin/bertalign/bert_align.py \
   -s data/mac/src \
   -t data/mac/tgt \
@@ -202,8 +202,8 @@ python utils/eval.py \
 | ------------------ | --------- | ------ | ------------- |
 | Gale-Church        | 0.442     | 0.470  | 0.455         |
 | Hunalign           | 0.566     | 0.656  | 0.607         |
-| Bleualign (bleu)   | 0.711     | 0.644  | 0.671         |
-| Bleualign (bleurt) | 0.718     | 0.706  | 0.712         |
+| Bleualign   | 0.711     | 0.644  | 0.671         |
+| Bleurtalign| 0.718     | 0.706  | 0.712         |
 | Vecalign           | 0.860     | 0.886  | 0.873         |
 | Bertalign          | 0.906     | 0.912  | 0.909         |
 
