@@ -56,9 +56,9 @@ The directory makeup is similar to Fiction corpus, except that the gold alignmen
 
 In order to compare the sentence-based alignments returned by various aligners with the verse-based gold alignments, we put the verse ID for each sentence in the files *src.verse* and *zh.verse* which are used to merge consecutive sentences in the automatic alignments if they belong to the same verse.
 
-#### Non-literary Corpora
+#### Non-literary Corpus
 
-###### Table 3. Summary of Non-literary Corpora
+###### Table 3. Summary of Non-literary Corpus
 
 | Corpus            | srcLang | tgtLang | #srcSents | #tgtSents | #srcTokens | #tgtTokens | #1-1 (%)  |
 | ----------------- | ------- | ------- | ---------- | ---------- | ------- | ---------- | ---------- |
